@@ -36,7 +36,7 @@ spec:
         app: echo
     spec:
       containers:
-      - image: registry.hub.docker.com/regisftm/echo:v0.0.1
+      - image: registry.hub.docker.com/regisftnt/echo_echo:latest
         name: echo
         imagePullPolicy: Always
         resources:
